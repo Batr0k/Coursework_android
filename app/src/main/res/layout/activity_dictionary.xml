@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:paddingBottom="16dp"/>
+<!--    <GridLayout-->
+<!--        android:id="@+id/gridLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:columnCount="4"-->
+<!--        android:padding="8dp">-->
+
+<!--        <Button-->
+<!--            android:layout_width="0dp"-->
+<!--            android:id="@+id/button1"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Англо-русский тест с выбором ответа"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_row="0"-->
+<!--            android:layout_column="0" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="0dp"-->
+<!--            android:id="@+id/button2"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Англо-русский тест с вводом ответа"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_row="0"-->
+<!--            android:layout_column="1" />-->
+<!--        <Button-->
+<!--            android:id="@+id/button3"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Русско-английский тест с выбором ответа"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_row="1"-->
+<!--            android:layout_column="0" />-->
+<!--        <Button-->
+<!--            android:id="@+id/button4"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Русско-английский тест с вводом ответа"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_row="1"-->
+<!--            android:layout_column="1" />-->
+
+
+
+<!--        &lt;!&ndash; Добавьте другие элементы &ndash;&gt;-->
+
+<!--    </GridLayout>-->
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
